@@ -5,16 +5,16 @@ Created on Sun May  8 12:53:12 2022
 @author: Ronald Chitauro
 """
 
+#Just a small program using Json to store data 
+
+
 import json
 
 
 def BirthdayRecords(nameBirthdays):
     return print(nameBirthdays,"'s birthday is on", infoBirthdays[nameBirthdays])
     
-    
-    
-    
-    
+   
 
 
 
