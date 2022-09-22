@@ -9,6 +9,17 @@
 
 
 class Car:
-    def __int__(self, color, mileage):
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
 
+    def descrip(self):
+        return f"color is, {self.color}, and it has a mileage of", {self.mileage}
+
+
+FirstCar = Car(color="blue", mileage=20000)
+SecondCar = Car(color="red", mileage=30000)
+
+print(FirstCar.descrip())
+print(SecondCar.descrip())
 
